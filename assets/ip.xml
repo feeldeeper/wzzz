@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <serverIp>121.10.143.168</serverIp>
+  <serverLine><![CDATA[联通]]></serverLine>
+  <ip>121.10.143.168</ip>
+  <ipArea><![CDATA[121.10.143.168 - 北京市 - 息壤中关村数据中心(电信通)]]></ipArea>
+  <match>0</match>
+  <enabled>1</enabled>
+  <linkIp>121.10.143.168</linkIp>
+  <des><![CDATA[客户IP：121.10.143.168 - 北京市 - 息壤中关村数据中心(电信通)，服务器IP：121.10.143.168 - 联通，返回校正IP：121.10.143.168 - 电信]]></des>
+</root>

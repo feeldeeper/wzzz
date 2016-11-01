@@ -1,0 +1,20 @@
+﻿package baijiale_fla
+{
+    import flash.display.*;
+
+    public dynamic class Timeline_81 extends MovieClip 
+    {
+
+        public function Timeline_81()
+        {
+            addFrameScript(0, this.frame1);
+        }
+
+        function frame1()
+        {
+            stop();
+        }
+
+
+    }
+}//package baijiale_fla
