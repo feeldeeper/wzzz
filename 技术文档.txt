@@ -1,0 +1,26 @@
+1.InjectGamePanelView 修改庄闲抽水  下注筹码限制等
+2.VideoPanelViewMediator upServerLineSelect 修改不同线路
+3.VideoPanelView videoOtherMouseClick  全景视频切换
+4.文本 取消 消除锯齿 才能正常显示
+5.设置投注提示文本 InjectGamePanelView showBetTips函数可以更新tips  InjectGamePanelViewMediator的gameAllInject函数更新tipsLimitInfo
+6.昵称修改 editnicknamepanelview.as  enterBtnFun函数  EditNickNamePanelViewMediator   onRegister 修改接口地址
+7.增加diffMax  
+BaijialeGameTableVO.as 
+	public var telDiffMax:Number;
+	this.telDiffMax = Number(_arg1.telDiffMax);
+GameDataModel.as
+	public var telDiffMax:Number;
+	this.telDiffMax = _arg1.telDiffMax;
+InjectGamePanelViewMediator.as
+	this.view.tieMax = this.gameDataModel.telTieMax;
+	this.view.pairMax = this.gameDataModel.telPairMax;
+	this.view.diffMax = this.gameDataModel.telDiffMax;
+InjectGamePanelView.as
+	public var tieMax:uint;
+	public var pairMax:uint;
+	public var diffMax:uint;
+	2000-pairMax/tieMax
+	22000-diffMax
+	修改initInjectMoneyBtn函数 筹码
+
+
